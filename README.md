@@ -26,13 +26,6 @@ Explore the live dashboard [here](https://app.powerbi.com/groups/187f2127-8e3e-4
 2. Open the project in Power BI Desktop.
 3. Explore the data model and visualizations.
 
-## Data Sources
-The dashboard seamlessly collects and utilizes data from two primary sources:
-
-1. **Excel/CSV Files:** Targets, Market Share data, and related information are sourced from [Excel/CSV files](https://github.com/pradeep-the-analyst/BI-360/tree/main/Assets/Excel_CSV_Files).
-   
-2. **MySQL Database:** Facts and Dimensions for all departments are retrieved from a [MySQL database](https://github.com/pradeep-the-analyst/BI-360/tree/main/Assets/MySQL_Database).
-
 ## Acknowledgments
 Special thanks to mentors, Hemanand Vadivel and Dhaval Patel. This project was part of the Power BI course offered by CodeBasis.
 
