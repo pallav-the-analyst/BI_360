@@ -26,6 +26,10 @@ Explore the live dashboard [here](https://app.powerbi.com/groups/187f2127-8e3e-4
 2. Open the project in Power BI Desktop.
 3. Explore the data model and visualizations.
 
+### Prerequisites
+- [Power BI Desktop](https://powerbi.microsoft.com/desktop/)
+- [DAX Studio](https://daxstudio.org/)
+
 ## Acknowledgments
 Special thanks to mentors, Hemanand Vadivel and Dhaval Patel. This project was part of the Power BI course offered by CodeBasis.
 
