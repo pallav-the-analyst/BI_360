@@ -1,4 +1,4 @@
-# Business Insights 360 Power BI Project
+# Business Insights 360
 
 Welcome to the Business Insights 360 Power BI project repository! 🚀
 
