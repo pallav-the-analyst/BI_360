@@ -1,35 +1,155 @@
-# Business Insights 360
-This is my Business Insights 360 project using Power BI on AtliQ Hardware
 
-## Overview
-Business Insights 360 is a comprehensive Power BI dashboard designed to empower AtliQ Hardware with actionable insights across Finance, Sales, Marketing, and Supply Chain. This repository houses the project files and documentation.
+# 📊 Business Insights 360 – Power BI Project  
 
-## Features
-- **Finance View:** Detailed financial analysis, including revenue, expenses, and profit margins.
-- **Sales View:** Insights into product and customer performance.
-- **Marketing View:** Analytics to enhance marketing strategy.
-- **Supply Chain View:** Optimization metrics for efficient supply chain management.
-- **Executive View:** Metrics critical for top-level decision-makers.
+🔗 **Live Dashboard:** [Click here](<iframe title="Bussiness Insight 360" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiMTdkODQxYmYtM2I4YS00ZDc1LWEzMzItMDljMTdlY2IzOTQ5IiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9" frameborder="0" allowFullScreen="true"></iframe>)
 
-## Live Dashboard
-Explore the live dashboard [here](https://app.powerbi.com/groups/me/reports/85b6b521-35ce-47a5-a605-5639a7189259/127abe525e2c1f0289d5?experience=power-bi)
+---
 
-## Key Achievements
-- **Customization:** Tailored for AtliQ Hardware's specific needs.
-- **Data Integration:** Seamless integration from Excel, CSV, and MySQL sources.
-- **Visualizations:** Engaging charts and visuals for better data understanding.
-- **Performance Optimization:** Achieved a 5% increase in report efficiency.
+## 🌟 Project Overview  
+AtliQ Hardware has been growing rapidly and expanding into global markets. To keep up with competitors who already rely on advanced analytics, the company decided to leverage **Power BI** for making data-driven decisions.  
 
-## Getting Started
-1. Clone this repository.
-2. Open the project in Power BI Desktop.
-3. Explore the data model and visualizations.
+This project, part of the **Codebasics Bootcamp**, focuses on building an **interactive dashboard** that answers key stakeholder questions across:  
+- Finance  
+- Sales  
+- Marketing  
+- Supply Chain  
+- Executive  
 
-### Prerequisites
-- [Power BI Desktop](https://powerbi.microsoft.com/desktop/)
-- [DAX Studio](https://daxstudio.org/)
+---
 
-## Acknowledgments
-Special thanks to mentors, Hemanand Vadivel and Dhaval Patel. This project was part of the Power BI course offered by CodeBasis.
+## 💻 Tech Stack  
+- SQL  
+- Power BI Desktop  
+- Excel  
+- DAX  
+- DAX Studio  
 
-# Explore, Analyze, Decide! 📊🔍🚀
+---
+
+## 🛠️ Power BI Features  
+- Data cleaning and transformations with **Power Query**  
+- **Snowflake data modeling** for efficient relationships  
+- Creating **measures and KPIs** using DAX  
+- **Dynamic titles** that respond to applied filters  
+- **Conditional formatting** with icons and colors  
+- **Bookmarks & navigation buttons** for smooth report flow  
+- **Drill-through** and **tooltips** for detailed insights  
+- **Date table creation** using M language  
+- **KPI indicators** for quick performance checks  
+- **Data validation techniques** to ensure accuracy  
+
+---
+
+## 🏢 Company Background  
+AtliQ Hardware sells computers and accessories through three main channels:  
+- 🏬 Retailers  
+- 🛒 Direct Sales  
+- 📦 Distributors  
+
+Recently, the company faced losses from a poorly planned store expansion in the USA, which was based only on surveys and Excel analysis. This highlighted the urgent need for a dedicated analytics system to reduce guesswork and improve business decisions.  
+
+## 📂 Dataset Details  
+
+The project uses two databases provided in the Bootcamp: **gdb041** and **gdb056**.  
+Together, they cover customers, products, markets, sales, forecasts, and associated costs.  
+
+---
+
+### 🗄️ gdb041  
+
+- **dim_customer**  
+  - 27 markets (e.g., India, USA, Spain)  
+  - 75 unique customers  
+  - Platforms: *Brick & Mortar* (offline), *E-commerce* (Amazon, Flipkart, etc.)  
+  - Channels: Retailer, Direct, Distributor  
+
+- **dim_market**  
+  - Market details grouped into **7 sub-zones** and **4 regions** (APAC, EU, NAN, LATAM)  
+
+- **dim_product**  
+  - Divisions: P&A (Peripherals & Accessories), PC (Notebooks & Desktops), N&S (Networking & Storage)  
+  - 14 product categories (e.g., Internal HDD, Keyboard) with multiple variants  
+
+- **fact_forecast_monthly**  
+  - Monthly demand forecasts by customer  
+  - Used to compare forecast vs. actual sales for inventory planning  
+
+- **fact_sales_monthly**  
+  - Monthly actual sales quantities  
+  - Helps track performance against forecast  
+
+---
+
+### 🗄️ gdb056  
+
+- **freight_cost** – Logistics and freight expenses by market & fiscal year  
+- **gross_price** – Gross product prices by product code  
+- **manufacturing_cost** – Yearly manufacturing costs per product  
+- **pre_invoice_deductions** – Trade discounts applied before invoicing (customer & year level)  
+- **post_invoice_deductions** – Discounts and claims applied after invoicing  
+
+
+## 💡 Dashboard Overview  
+
+The dashboard provides a 360° view of AtliQ Hardware’s business operations across multiple domains:  
+
+- ✅ **Home View** – Navigate seamlessly with a central landing page  
+- ✅ **Finance View** – Analyze P&L statements, Net Sales trends, and top/bottom customers & products  
+- ✅ **Sales View** – Explore customer and product performance with Net Sales, Gross Margin %, unit economics, and deductions  
+- ✅ **Marketing View** – Gain insights by market, region, product, and customer, tracking GM% and NP% across segments  
+- ✅ **Supply Chain View** – Track Forecast Accuracy, Net Error, and Absolute Error with trend analysis for optimization  
+- ✅ **Executive View** – Monitor performance at a glance with revenue by division, customer, product, and channel  
+
+
+
+## 🏠 Home Page
+Central navigation hub with buttons to access each domain view.  
+
+![Home Page](https://github.com/pallav-the-analyst/BI_360/blob/main/images/bi360_page-0001.jpg)
+
+---
+
+## 💵 Finance View
+Analyze Profit & Loss statements, Net Sales trends, and top/bottom customers & products.  
+
+![Finance View](https://github.com/pallav-the-analyst/BI_360/blob/main/images/bi360_page-0002.jpg)
+
+---
+
+## 📈 Sales View
+Customer and product performance with insights into Net Sales, Gross Margin %, and unit economics.  
+
+![Sales View](https://github.com/pallav-the-analyst/BI_360/blob/main/images/bi360_page-0003.jpg)
+
+---
+
+## 📊 Marketing View
+Market, region, product, and customer insights while tracking GM% and NP% across segments.  
+
+![Marketing View](https://github.com/pallav-the-analyst/BI_360/blob/main/images/bi360_page-0004.jpg)
+
+---
+
+## 🚚 Supply Chain View
+Track Forecast Accuracy, Net Error, and Absolute Error with trend analysis for supply chain optimization.  
+
+![Supply Chain View](https://github.com/pallav-the-analyst/BI_360/blob/main/images/bi360_page-0005.jpg)
+
+---
+
+## 👔 Executive View
+High-level performance overview including revenue by division, customers, products, and channels.  
+
+![Executive View](https://github.com/pallav-the-analyst/BI_360/blob/main/images/bi360_page-0006.jpg)
+
+
+
+## 🚀 Project Outcome  
+
+This project demonstrates how **1.5M+ rows of raw data** were transformed into an **interactive, decision-focused dashboard**.  
+
+It enables:  
+- **Finance Teams** → Monitor profitability and sales performance  
+- **Sales & Marketing Teams** → Identify key customers, products, and markets  
+- **Supply Chain Teams** → Track forecast accuracy and optimize planning  
+- **Executives** → Make smarter and faster decisions with confidence  
